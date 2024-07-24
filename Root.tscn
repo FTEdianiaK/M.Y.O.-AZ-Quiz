@@ -1,0 +1,530 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Piece.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Root.gd" type="Script" id=2]
+[ext_resource path="res://Timer.tscn" type="PackedScene" id=3]
+[ext_resource path="res://GUI.tscn" type="PackedScene" id=4]
+[ext_resource path="res://assets/OpenSans-Regular.ttf" type="DynamicFontData" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 36
+use_filter = true
+font_data = ExtResource( 5 )
+
+[node name="Root" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Piece1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384, 56 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label1" type="Label" parent="Piece1"]
+margin_left = -40.0
+margin_top = -48.0
+margin_right = 36.0
+margin_bottom = 44.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "1"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label2" type="Label" parent="Piece2"]
+margin_left = 8.0
+margin_top = -128.0
+margin_right = 88.0
+margin_bottom = -32.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "2"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 432, 136 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label3" type="Label" parent="Piece3"]
+margin_left = 56.0
+margin_top = -208.0
+margin_right = 136.0
+margin_bottom = -112.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "3"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 216 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label4" type="Label" parent="Piece4"]
+margin_left = 104.0
+margin_top = -288.0
+margin_right = 184.0
+margin_bottom = -192.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "4"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384, 216 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label5" type="Label" parent="Piece5"]
+margin_left = 152.0
+margin_top = -368.0
+margin_right = 232.0
+margin_bottom = -272.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "5"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 216 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label6" type="Label" parent="Piece6"]
+margin_left = 200.0
+margin_top = -448.0
+margin_right = 280.0
+margin_bottom = -352.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "6"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label7" type="Label" parent="Piece7"]
+margin_left = 248.0
+margin_top = -528.0
+margin_right = 328.0
+margin_bottom = -432.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "7"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label8" type="Label" parent="Piece8"]
+margin_left = -88.0
+margin_top = -128.0
+margin_right = -8.0
+margin_bottom = -32.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "8"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 432, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label9" type="Label" parent="Piece9"]
+margin_left = -40.0
+margin_top = -208.0
+margin_right = 40.0
+margin_bottom = -112.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "9"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 528, 296 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label10" type="Label" parent="Piece10"]
+margin_left = -136.0
+margin_top = -208.0
+margin_right = -56.0
+margin_bottom = -112.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "10"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 376 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label11" type="Label" parent="Piece11"]
+margin_left = 8.0
+margin_top = -288.0
+margin_right = 88.0
+margin_bottom = -192.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "11"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 376 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label12" type="Label" parent="Piece12"]
+margin_left = -88.0
+margin_top = -288.0
+margin_right = -8.0
+margin_bottom = -192.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "12"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384, 376 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label13" type="Label" parent="Piece13"]
+margin_left = -184.0
+margin_top = -288.0
+margin_right = -104.0
+margin_bottom = -192.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "13"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 376 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label14" type="Label" parent="Piece14"]
+margin_left = 56.0
+margin_top = -368.0
+margin_right = 136.0
+margin_bottom = -272.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "14"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 576, 376 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label15" type="Label" parent="Piece15"]
+margin_left = -40.0
+margin_top = -368.0
+margin_right = 40.0
+margin_bottom = -272.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "15"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 144, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label16" type="Label" parent="Piece16"]
+margin_left = -136.0
+margin_top = -368.0
+margin_right = -56.0
+margin_bottom = -272.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "16"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 240, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label17" type="Label" parent="Piece17"]
+margin_left = -232.0
+margin_top = -368.0
+margin_right = -152.0
+margin_bottom = -272.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "17"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 336, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label18" type="Label" parent="Piece18"]
+margin_left = 104.0
+margin_top = -448.0
+margin_right = 184.0
+margin_bottom = -352.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "18"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 432, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label19" type="Label" parent="Piece19"]
+margin_left = 8.0
+margin_top = -448.0
+margin_right = 88.0
+margin_bottom = -352.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "19"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 528, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label20" type="Label" parent="Piece20"]
+margin_left = -88.0
+margin_top = -448.0
+margin_right = -8.0
+margin_bottom = -352.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "20"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 624, 456 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label21" type="Label" parent="Piece21"]
+margin_left = -184.0
+margin_top = -448.0
+margin_right = -104.0
+margin_bottom = -352.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "21"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 96, 536 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label22" type="Label" parent="Piece22"]
+margin_left = -280.0
+margin_top = -448.0
+margin_right = -200.0
+margin_bottom = -352.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "22"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 192, 536 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label23" type="Label" parent="Piece23"]
+margin_left = 152.0
+margin_top = -528.0
+margin_right = 232.0
+margin_bottom = -432.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "23"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 288, 536 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label24" type="Label" parent="Piece24"]
+margin_left = 56.0
+margin_top = -528.0
+margin_right = 136.0
+margin_bottom = -432.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "24"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 384, 536 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label25" type="Label" parent="Piece25"]
+margin_left = -40.0
+margin_top = -528.0
+margin_right = 40.0
+margin_bottom = -432.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "25"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 480, 536 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label26" type="Label" parent="Piece26"]
+margin_left = -136.0
+margin_top = -528.0
+margin_right = -56.0
+margin_bottom = -432.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "26"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 576, 536 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label27" type="Label" parent="Piece27"]
+margin_left = -232.0
+margin_top = -528.0
+margin_right = -152.0
+margin_bottom = -432.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "27"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Piece28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 672, 536 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Label28" type="Label" parent="Piece28"]
+margin_left = -328.0
+margin_top = -528.0
+margin_right = -248.0
+margin_bottom = -432.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "28"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Timer" parent="." instance=ExtResource( 3 )]
+position = Vector2( 640, 72 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="GUI" parent="." instance=ExtResource( 4 )]
+visible = false
+
+[connection signal="done" from="GUI" to="." method="_on_GUI_done"]
